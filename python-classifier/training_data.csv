@@ -1,0 +1,86 @@
+text,category
+"I was charged twice for my monthly subscription",BILLING
+"Duplicate charge on my credit card statement",BILLING
+"Payment failed when renewing annual plan",BILLING
+"Need an invoice for tax filing purposes",BILLING
+"Please send receipt for last month transaction",BILLING
+"Requesting a refund for accidental renewal",BILLING
+"Overcharged on our enterprise billing account",BILLING
+"Credit card was declined during checkout",BILLING
+"Cancel my subscription and refund remaining balance",BILLING
+"Wrong amount deducted from my bank account",BILLING
+"Update billing address and VAT number",BILLING
+"Why is my invoice higher than agreed discount?",BILLING
+"Payment processed but subscription still expired",BILLING
+"Unauthorized charge on my debit card",BILLING
+"Change payment method from PayPal to corporate credit card",BILLING
+"Need refund for unused license seats",BILLING
+"Discount coupon was not applied to invoice",BILLING
+"Automatic renewal charged without email notice",BILLING
+"Billing portal gives payment gateway error",BILLING
+"Request receipt for transaction id TX98231",BILLING
+"Charged after cancelling trial period",BILLING
+"Invoice download button is not generating PDF",BILLING
+"Need itemized bill breakdown for accounting audit",BILLING
+"Wire transfer completed but payment not credited",BILLING
+"Subscription renewal failed due to 3D secure verification",BILLING
+"Double billing for user seat licenses",BILLING
+"Credit card expiration update not saving in billing tab",BILLING
+"Requesting pro-rated refund for early cancellation",BILLING
+"Stripe payment error message during purchase",BILLING
+"Invoice shows incorrect company name and tax ID",BILLING
+"The application crashes every time I open reports",TECHNICAL
+"Login failure: getting 500 internal server error",TECHNICAL
+"API endpoint returning 401 unauthorized with valid token",TECHNICAL
+"Website is not loading and returning timeout error",TECHNICAL
+"Database connection pool exhausted exception in server logs",TECHNICAL
+"Dashboard widgets are blank and throw javascript console error",TECHNICAL
+"Slow query performance causing UI lag and freezing",TECHNICAL
+"Mobile app crashes on launch after latest update",TECHNICAL
+"Webhook delivery failed with HTTP 502 bad gateway",TECHNICAL
+"Authentication SSO SAML login looping infinitely",TECHNICAL
+"Memory leak in background sync worker causing crash",TECHNICAL
+"Data sync between CRM and portal is broken",TECHNICAL
+"File upload fails with network socket exception",TECHNICAL
+"Search index corrupted, returns zero query results",TECHNICAL
+"CORS policy error blocking API requests from our domain",TECHNICAL
+"Export to CSV produces corrupted 0 byte file",TECHNICAL
+"Redis cache connection timeout in microservice",TECHNICAL
+"SSL certificate expired error on api domain",TECHNICAL
+"Password reset link generates 404 page not found",TECHNICAL
+"High CPU spike causing system unresponsiveness",TECHNICAL
+"WebSocket connection drops repeatedly every few seconds",TECHNICAL
+"Pagination broken on customer table, skips page 3",TECHNICAL
+"Bulk import job stuck at 99% progress bar",TECHNICAL
+"GraphQL schema validation error on query execution",TECHNICAL
+"Docker container restarts continuously due to out of memory",TECHNICAL
+"Third party integration webhook signature verification failed",TECHNICAL
+"Critical security vulnerability: session token not expiring",TECHNICAL
+"Service unavailable: 503 error on main landing page",TECHNICAL
+"Database deadlock exception during concurrent transactions",TECHNICAL
+"Frontend build error: TypeError cannot read property of undefined",TECHNICAL
+"How do I update my company profile information?",OTHER
+"General inquiry about your enterprise product roadmap",OTHER
+"Can you explain the difference between basic and pro tiers?",OTHER
+"Requesting a demo for our executive team next week",OTHER
+"Where can I find compliance and SOC2 certification documents?",OTHER
+"How do I invite team members to our workspace?",OTHER
+"Looking for information on your referral partner program",OTHER
+"Office hours and customer support availability on weekends",OTHER
+"Can you change our registered organization account owner?",OTHER
+"Feedback on your new dashboard user interface design",OTHER
+"Where are your cloud servers and data centers hosted geographically?",OTHER
+"Do you support languages other than English in the portal?",OTHER
+"Schedule an onboarding training session for our staff",OTHER
+"Requesting GDPR data privacy agreement signature",OTHER
+"General question regarding API rate limits and terms of service",OTHER
+"How to change notification email preferences?",OTHER
+"Inquiry about upcoming features and public changelog",OTHER
+"Do you offer non-profit or educational discounts?",OTHER
+"Transfer workspace ownership to new administrator",OTHER
+"Where can I read your service level agreement SLA?",OTHER
+"My account isn't working correctly",OTHER
+"Something strange happened in my account",OTHER
+"Need some help with my account settings",OTHER
+"Hello support team, I have a quick question",OTHER
+"Can someone review my account status?",OTHER

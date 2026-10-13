@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # Python ML Classifier microservice (FastAPI + Uvicorn)
+  python-classifier:
+    build:
+      context: ./python-classifier
+      dockerfile: Dockerfile
+    container_name: ticket-router-python
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    restart: unless-stopped
+
+  # Java Spring Boot Routing Agent & Helpdesk API
+  java-backend:
+    build:
+      context: ./java-backend
+      dockerfile: Dockerfile
+    container_name: ticket-router-java
+    ports:
+      - "8080:8080"
+    environment:
+      - PYTHON_CLASSIFIER_URL=http://python-classifier:8000/classify
+      - ROUTING_CONFIDENCE_THRESHOLD=0.80
+    depends_on:
+      - python-classifier
+    restart: unless-stopped
+
+  # React + TypeScript Frontend Dashboard
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ticket-router-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://localhost:8080
+      - VITE_PYTHON_URL=http://localhost:8000
+    depends_on:
+      - java-backend
+    restart: unless-stopped
